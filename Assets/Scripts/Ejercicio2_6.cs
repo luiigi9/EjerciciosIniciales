@@ -18,6 +18,7 @@ public class Ejercicio2_6 : MonoBehaviour
         Debug.Log("Puntos BS: " + puntos2);
         Debug.Log("Puntos LS: " + puntos3);
         media = (puntos1 + puntos2 + puntos3) / 3;
+        Debug.Log("Media de puntos: " + media);
     }
 
     // Update is called once per frame
