@@ -14,6 +14,7 @@ public class Ejercicio6 : MonoBehaviour
      * 6.2 W false, X true, Y true, Z false
      * 
      * a) W || Y && X && W || Z = false     b) X && !Y && !X || !W && Y = true
-     * c) !(W || !Y) && X || Z = true
+     * c) !(W || !Y) && X || Z = true       d) X && Y && W || Z || X = true
+     * e) Y || !(Y || Z && W) = true        f) !X && Y && (!Z || !X) = false
      * */
 }
