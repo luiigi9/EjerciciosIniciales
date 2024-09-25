@@ -10,9 +10,8 @@ public class CreadorPersonajes : MonoBehaviour
     void Start()
     {
         link.Nombre = "link";
-        link.Velocidad = 50;
         link.Vida = 100;
-        link.Mover();
+        //link.Mover();
         link.Saltar();
         link.Atacar();
     }

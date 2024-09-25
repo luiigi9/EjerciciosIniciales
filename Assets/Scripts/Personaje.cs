@@ -7,17 +7,19 @@ public class Personaje : MonoBehaviour
     // Start is called before the first frame update
     private string nombre;
     private float vida;
-    private float altura;
-    private float velocidad;
+    private float experiencia;
+    private float nivel;
 
     public float Vida { get => vida; set => vida = value; }
-    public float Altura { get => altura; set => altura = value; }
+    public float Experiencia { get => experiencia; set => experiencia = value; }
     public string Nombre { get => nombre; set => nombre = value; }
-    public float Velocidad { get => velocidad; set => velocidad = value; }
+    public float Nivel { get => nivel; set => nivel = value; }
 
-    public void Mover(float x, float y, float z)
+    public float CalcularNivel(float experiencia)
     {
-
+        float level;
+        level = experiencia / 1000;
+        return level;
     }
     public void Atacar()
     {
