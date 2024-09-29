@@ -9,6 +9,9 @@ public class Personaje : MonoBehaviour
     private float vida;
     private float experiencia;
     private float nivel;
+    [SerializeField] Personaje Enemigo;
+    SistemaDeVida vidaPers;
+    [SerializeField] Arma armaPers;
 
     public float Vida { get => vida; set => vida = value; }
     public float Experiencia { get => experiencia; set => experiencia = value; }
